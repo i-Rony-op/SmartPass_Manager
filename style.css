@@ -104,7 +104,6 @@ form {
   color: black;
   padding: 10px;
   flex-direction: column;
-  /* margin-bottom: 100px; */
 }
 
 form label {
@@ -119,12 +118,14 @@ form input[type="text"] {
   border: none;
   border-radius: 5px;
   background-color: lightcoral;
+  outline: none;
 }
 form input[type="text"]:focus {
   width: 61%;
   background-color: white;
 }
 form input[type="password"] {
+  outline: none;
   text-align: center;
   padding: 2px;
   background-color: lightcoral;
